@@ -1,4 +1,49 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h1{
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.maindiv {
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    border-radius:25px;
+    color:black;
+    padding:20px;
+    width:600px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    width: 400px;
+}
+
+.content__input {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.content__label {
+    width: 150px;
+}
+
+#result {
+    margin: 20px 0;
+}
+
+.highlighted {
+    background-color: yellow ;
+}
+
+#compute {
+    max-width:200px;
+}
